@@ -1,0 +1,24 @@
+/* Rede neural: fundo preto, sinapses e neurônios em azul claro */
+
+.workspace-leaf-content[data-type="graph"] .view-content,
+.workspace-leaf-content[data-type="localgraph"] .view-content {
+  background: #000000;
+}
+
+/* Brilho suave, como luz de rede neural */
+.workspace-leaf-content[data-type="graph"] canvas,
+.workspace-leaf-content[data-type="localgraph"] canvas {
+  filter: drop-shadow(0 0 2px rgba(125, 211, 252, 0.7));
+}
+
+.graph-view.color-fill            { color: #bae6fd; }  /* neurônios */
+.graph-view.color-fill-focused    { color: #ffffff; }
+.graph-view.color-fill-highlight  { color: #e0f2fe; }
+.graph-view.color-fill-tag        { color: #7dd3fc; }
+.graph-view.color-fill-attachment { color: #38bdf8; }
+.graph-view.color-fill-unresolved { color: #1e3a5f; }
+.graph-view.color-line            { color: rgba(125, 211, 252, 0.28); }  /* sinapses */
+.graph-view.color-line-highlight  { color: #e0f2fe; }
+.graph-view.color-text            { color: #e0f2fe; }
+.graph-view.color-circle          { color: #7dd3fc; }
+.graph-view.color-arrow           { color: #7dd3fc; }
