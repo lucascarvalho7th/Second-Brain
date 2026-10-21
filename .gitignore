@@ -1,0 +1,17 @@
+# Obsidian: estado local e plugins
+.obsidian/workspace*.json
+.obsidian/graph.json
+.obsidian/plugins/
+.obsidian/cache
+.trash/
+
+# Sessões e configs locais de ferramentas
+.claudian/
+.claude/settings.local.json
+
+# Pasta privada
+02-Areas/Pessoal/Privado/*
+!02-Areas/Pessoal/Privado/.gitkeep
+
+.DS_Store
+Thumbs.db
